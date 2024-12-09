@@ -1,1 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-UDzan82)
+# Weather Bar Chart
+
+Deze applicatie visualiseert de dagelijkse maximale en minimale temperaturen van Gent, België, in de afgelopen zeven dagen. De gegevens worden opgehaald via de **Open-Meteo API** en worden weergegeven in een staafdiagram met de maximale temperaturen als blauwe staven en de minimale temperaturen als rode cirkels.
+
+## Functionaliteiten:
+- **Maximale temperatuur** wordt weergegeven als een blauwe staaf.
+- **Minimale temperatuur** wordt weergegeven als een rode cirkel.
+- **Hover-effecten** tonen de exacte temperatuur voor elke dag.
+
+## Vereisten:
+- Geen API-sleutels nodig voor deze applicatie.
+- Gebruikt **D3.js** voor datavisualisatie.
+
+
