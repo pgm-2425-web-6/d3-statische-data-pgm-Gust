@@ -1,0 +1,58 @@
+#chart {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.125rem;
+    background-color: hsl(0, 0%, 13%);
+    border-radius: 0.9375rem;
+    padding: 2.5rem;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.bar {
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.3125rem;
+
+    &:hover {
+        fill: hsl(330, 100%, 65%);
+        cursor: pointer;
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }   
+}
+
+.circle {
+    transition: all 0.3s ease-in-out;
+    fill: hsl(330, 100%, 75%);
+    cursor: pointer;
+
+    &:hover {
+        fill: hsl(330, 100%, 65%);
+    }
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: hsl(0, 0%, 100%);
+    padding: 0.75rem 1.125rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.3);
+}
+
+svg {
+    border: none;
+    border-radius: 0.9375rem;
+    background-color: hsl(0, 0%, 20%);
+    box-shadow: 0 0.375rem 0.9375rem rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}
